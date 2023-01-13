@@ -1,5 +1,5 @@
-robocopy c:\me\ \\192.168.5.14\me\ /MIR /XF *.PST *.TMP *.VHDX
-robocopy D:\xampp\xampp_data\ \\192.168.5.14\xampp_data\ /MIR
-REM robocopy D:\xampp\htdocs\ \\192.168.5.14\xampp\htdocs\ /MIR
+robocopy c:\me\ \\192.168.5.15\d\me\ /MIR /XF *.PST *.TMP *.VHDX
+robocopy \\192.168.5.15\d\xampp_data\ D:\xampp\xampp_data\ /MIR
+robocopy \\192.168.5.15\d\xampp\htdocs\ D:\xampp\htdocs\ /MIR
 
 pause
