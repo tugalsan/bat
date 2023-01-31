@@ -1,0 +1,2 @@
+netsh wlan show profile MyWiFiName key-clear
+look for keyContent
