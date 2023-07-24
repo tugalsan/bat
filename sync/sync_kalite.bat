@@ -24,10 +24,7 @@ EXIT /B 0
 
 @REM MAIN
 :F_MAIN
-CALL :F_SYNC "DESTEK"
-CALL :F_SYNC "MÜŞTERİ ve TEDARİK"
-CALL :F_SYNC "SİSTEM"
-CALL :F_SYNC "ÜRETİM"
+CALL :F_SYNC "Entegre Yönetim Sistemi"
 
 @REM Restore the initial code page.
 %SystemRoot%\System32\chcp.com %InitialCodePage% >NUL
